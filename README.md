@@ -52,7 +52,10 @@ TODO
 
 ## TODO
 - Flesh out syntax
-- Parser (Find cross OS lang, nim?, go?, rust?)
+- Parser, find cross OS lang:
+  - nim ([lexer](https://nim-lang.org/docs/compiler/lexer.html), [parser](https://nim-lang.org/docs/compiler/parser.html))?
+  - go?
+  - rust ([logos](https://github.com/maciejhirsz/logos), [pest](https://github.com/pest-parser/pest))?)
 - Transpiler
 - Example Project
 - Live transpilation
