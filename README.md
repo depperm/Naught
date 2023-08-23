@@ -51,12 +51,12 @@ TODO
 TODO
 
 ## TODO
-[ ] Flesh out syntax
-[ ] Parser (Find cross OS lang, nim?)
-[ ] Transpiler
-[ ] Example Project
-[ ] Live transpilation
+- Flesh out syntax
+- Parser (Find cross OS lang, nim?)
+- Transpiler
+- Example Project
+- Live transpilation
 
 ### Wishlist
-[ ] Integrated SASS->auto compiles into css
-[ ] Get language accepted to not need Transpiler
+- Integrated SASS->auto compiles into css
+- Get language accepted to not need Transpiler
