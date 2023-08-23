@@ -37,7 +37,7 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 ```
 
 ## Transpiler
-TODO
+`$> naught input.naught`
 ### Instructions
 TODO
 
