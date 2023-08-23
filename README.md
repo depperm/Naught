@@ -11,14 +11,6 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 
 ### Elements
 
-#### Difference from normal HTML
-
-\<New element type> (old HTML element): `example`
-
-- link (a): `~link(to:url){link text}` (video uses `~link(surf:url){...}`) -> can still use `~a(href:url){link}`
-- metadata (head): `~metadata{...}`
-- style (link): `~style(src:url)`
-
 ### Example
 ```
 ~html(lang:en){
@@ -31,7 +23,7 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 		~h1{Hello, World!}
 		~p{
 			Using HTML, we can make paragraphs, and even
-			~link(to:grid!cern.ch/hello.html){link}
+			~a(href:grid!cern.ch/hello.html){link}
 			to other documents into our paragraphs!
 			~span(id:greeting-span)
 		}
@@ -58,6 +50,9 @@ TODO
 - Transpiler
 - Example Project
 - Live transpilation
+
+### Other
+- reference [pug](pugjs.org)
 
 ### Wishlist
 - Integrated SASS->auto compiles into css
