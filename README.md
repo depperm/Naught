@@ -13,6 +13,8 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 
 #### Difference from normal HTML
 
+\<New element type> (old HTML element): `example`
+
 - link (a): `~link(to:url){link text}` (video uses `~link(surf:url){...}`)
 - code (script): `~code(type=text/javascript)` (video uses hyperlisp, which I'm not going to touch)
 - metadata (head): `~metadata{...}`
@@ -42,6 +44,11 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 	}
 }
 ```
+
+## Transpiler
+TODO
+### Instructions
+TODO
 
 ## TODO
 [ ] Flesh out syntax
