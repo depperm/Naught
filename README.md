@@ -60,3 +60,4 @@ TODO
 ### Wishlist
 - Integrated SASS->auto compiles into css
 - Get language accepted to not need Transpiler
+- Integrate LaTeX?
