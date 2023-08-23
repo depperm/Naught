@@ -1,4 +1,4 @@
-# HTMLNaught
+# Naught
 
 Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.com/watch?v=8JOD1AQGqEg), with some differences
 - 24:13 HTML naught
