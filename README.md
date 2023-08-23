@@ -41,6 +41,11 @@ TODO
 ### Instructions
 TODO
 
+### References
+- [pug](pugjs.org)
+- [haml](https://haml.info)
+- [slim](https://slim-template.github.io)
+
 ## TODO
 - Flesh out syntax
 - Parser, find cross OS lang:
@@ -50,9 +55,6 @@ TODO
 - Transpiler
 - Example Project
 - Live transpilation
-
-### Other
-- reference [pug](pugjs.org)
 
 ### Wishlist
 - Integrated SASS->auto compiles into css
