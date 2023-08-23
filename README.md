@@ -52,7 +52,7 @@ TODO
 
 ## TODO
 - Flesh out syntax
-- Parser (Find cross OS lang, nim?)
+- Parser (Find cross OS lang, nim?, go?, rust?)
 - Transpiler
 - Example Project
 - Live transpilation
