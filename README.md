@@ -15,8 +15,7 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 
 \<New element type> (old HTML element): `example`
 
-- link (a): `~link(to:url){link text}` (video uses `~link(surf:url){...}`)
-- code (script): `~code(type=text/javascript)` (video uses hyperlisp, which I'm not going to touch)
+- link (a): `~link(to:url){link text}` (video uses `~link(surf:url){...}`) -> can still use `~a(href:url){link}`
 - metadata (head): `~metadata{...}`
 - style (link): `~style(src:url)`
 
@@ -26,7 +25,7 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 	~metadata{
 		~title{It's HTML, Jim, but not as we know it...}
 	}
-	~code(type=text/javascript){
+	~script(lang:js){
 	}
 	~body{
 		~h1{Hello, World!}
