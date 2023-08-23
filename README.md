@@ -42,7 +42,7 @@ TODO
 TODO
 
 ### References
-- [pug](pugjs.org)
+- [pug](https://pugjs.org)
 - [haml](https://haml.info)
 - [slim](https://slim-template.github.io)
 
