@@ -17,7 +17,7 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 	~metadata{
 		~title{It's HTML, Jim, but not as we know it...}
 	}
-	~script(lang:js){
+	~script(type:text/javascript){
 	}
 	~body{
 		~h1{Hello, World!}
