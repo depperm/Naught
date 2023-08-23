@@ -28,7 +28,7 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 	}
 	~code(type=text/javascript){
 	}
-	~document{
+	~body{
 		~h1{Hello, World!}
 		~p{
 			Using HTML, we can make paragraphs, and even
@@ -54,5 +54,9 @@ TODO
 [ ] Flesh out syntax
 [ ] Parser (Find cross OS lang, nim?)
 [ ] Transpiler
+[ ] Example Project
 [ ] Live transpilation
+
+### Wishlist
+[ ] Integrated SASS->auto compiles into css
 [ ] Get language accepted to not need Transpiler
