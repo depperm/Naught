@@ -60,4 +60,4 @@ TODO
 ### Wishlist
 - Integrated SASS->auto compiles into css
 - Get language accepted to not need Transpiler
-- Integrate LaTeX?
+- Integrate LaTeX? ([mathjax](https://www.mathjax.org) or [jslatex](http://blog.dreasgrech.com/2009/12/jslatex-jquery-plugin-to-directly-embed.html))
