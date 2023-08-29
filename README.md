@@ -37,11 +37,11 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 ```
 
 ## Transpiler
-`$> naught input.naught`
+`$> naught input.nau`
 ### Instructions
 TODO
 
-### References
+### Other Potential References
 - [pug](https://pugjs.org)
 - [haml](https://haml.info)
 - [slim](https://slim-template.github.io)
