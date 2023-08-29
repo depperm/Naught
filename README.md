@@ -41,10 +41,10 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 ### Instructions
 TODO
 
-### Other Potential References
+### Similar Frameworks
 - [pug](https://pugjs.org)
-- [haml](https://haml.info)
-- [slim](https://slim-template.github.io)
+- [haml](https://haml.info) (PHP, ASP, and ERB)
+- [slim](https://slim-template.github.io) (ruby)
 
 ## TODO
 - Flesh out syntax
