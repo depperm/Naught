@@ -5,9 +5,15 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 - 39:35 Hyper Lisp
 
 ## Syntax
-- `~<element>{contents}` HTML Element with no attributes
-- `~<element>(colon separated attributes)` Empty HTML element
+Elements must have either attributes and/or contents to be valid naught syntax. `~<element>` is NOT valid syntax.
+- `~<element>{contents}` HTML Element with no attributes, contents may be blank (`~<element>{}`)
+- `~<element>(colon separated attributes)` Empty HTML element with attributes
 - `~<element>(colon separated attributes){contents}` HTML Element with attributes
+
+### New Special Entities
+For putting code in `~pre` or `~code` use the following new entities:
+- Tilde (`~`) use `&til;`
+- Right curly brace (`}`) use `$rcurl;`
 
 ### Elements
 
