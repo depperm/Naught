@@ -12,14 +12,15 @@ Elements must have either attributes and/or contents to be valid naught syntax. 
 
 ### Potential Problems
 The `~pre` or `~code` elements can contain code, how do we include this feature?
+
 #### New Special Entities
 Use the following new entities when within the above tags:
 - Tilde (`~`) use `&tilde;`
 - Right curly brace (`}`) use `$rbrace;` ([reference](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references))
 
-### Elements
+## Example
 
-### Example
+### Input
 ```
 ~html(lang:en){
 	~metadata{
@@ -47,10 +48,19 @@ Use the following new entities when within the above tags:
 }
 ```
 
-## Transpiler
-`$> naught input.nau`
-### Instructions
+### Output
 TODO
+
+## Transpiler
+Program will convert `.nau` (naught files) into html
+
+### Instructions
+`$> naught input.nau`
+
+#### Options
+- `-d` indicates source is a directory and to do all naught files in the directory
+- `-o <output dir>` indicates where the html should end up
+- `-s` indicates to convert sass to css
 
 ### Similar Frameworks
 - [pug](https://pugjs.org)
