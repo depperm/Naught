@@ -12,8 +12,8 @@ Elements must have either attributes and/or contents to be valid naught syntax. 
 
 ### New Special Entities
 For putting code in `~pre` or `~code` use the following new entities:
-- Tilde (`~`) use `&til;`
-- Right curly brace (`}`) use `$rcurl;`
+- Tilde (`~`) use `&tilde;`
+- Right curly brace (`}`) use `$rbrace;` ([reference](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references))
 
 ### Elements
 
