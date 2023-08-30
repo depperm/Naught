@@ -33,11 +33,14 @@ For putting code in `~pre` or `~code` use the following new entities:
 			to other documents into our paragraphs!
 			~span(id:greeting-span)
 		}
+                ~pre{
+                this is an &tilde;span{example$rbrace; that contains naught in preformatted text
+                }
 		~form(method: SUBMIT, id:main-form){
 			~input(type:text){What's your name?}
 			~input(type:button, action: submit){Go!}
 		}
-		~img(src:grid!cern.ch/images/test.jpg){Test Image}
+		~img(src:grid!cern.ch/images/test.jpg)
 	}
 }
 ```
