@@ -7,11 +7,13 @@ Based heavily on [The Web that Never Was -  Dylan Beattie](https://www.youtube.c
 ## Syntax
 Elements must have either attributes and/or contents to be valid naught syntax. `~<element>` is NOT valid syntax.
 - `~<element>{contents}` HTML Element with no attributes, contents may be blank (`~<element>{}`)
-- `~<element>(colon separated attributes)` Empty HTML element with attributes
+- `~<element>(comma, colon separated attributes - think JSON like)` Empty HTML element with attributes
 - `~<element>(colon separated attributes){contents}` HTML Element with attributes
 
-### New Special Entities
-For putting code in `~pre` or `~code` use the following new entities:
+### Potential Problems
+The `~pre` or `~code` elements can contain code, how do we include this feature?
+#### New Special Entities
+Use the following new entities when within the above tags:
 - Tilde (`~`) use `&tilde;`
 - Right curly brace (`}`) use `$rbrace;` ([reference](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references))
 
